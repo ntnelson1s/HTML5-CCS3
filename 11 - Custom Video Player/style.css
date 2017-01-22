@@ -32,7 +32,8 @@ body {
 
 .player__button {
   background:none;
-  border:0;
+  border: 0;
+  box-shadow:0 0 5px #7c1599;
   line-height:1;
   color:white;
   text-align: center;
@@ -91,7 +92,10 @@ body {
   flex:0;
   flex-basis:50%;
 }
-
+span {
+  transform: rotate(180deg);
+  display: inline-block;
+}
 /* unholy css to style input type="range" */
 
 input[type=range] {
